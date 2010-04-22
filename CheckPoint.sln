@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPoint", "CheckPoint\CheckPoint.csproj", "{B9AB709F-1595-45A2-A137-10DFB0E8217D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckPoint.Tests", "CheckPoint.Tests\CheckPoint.Tests.csproj", "{45DCD561-DAF4-40E0-A0E9-7DEDC8E10A77}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA1AAB2C-1141-4654-A932-C73721092F68}"
+	ProjectSection(SolutionItems) = preProject
+		CheckPoint.vsmdi = CheckPoint.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = CheckPoint.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9AB709F-1595-45A2-A137-10DFB0E8217D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AB709F-1595-45A2-A137-10DFB0E8217D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AB709F-1595-45A2-A137-10DFB0E8217D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AB709F-1595-45A2-A137-10DFB0E8217D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45DCD561-DAF4-40E0-A0E9-7DEDC8E10A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45DCD561-DAF4-40E0-A0E9-7DEDC8E10A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45DCD561-DAF4-40E0-A0E9-7DEDC8E10A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45DCD561-DAF4-40E0-A0E9-7DEDC8E10A77}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
